@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     private void addItem() {
         String text = editText.getText().toString();
         if (!text.isEmpty()) {
-            itemList.add(new Item(text, R.drawable.ic_launcher_background, false));
+            itemList.add(new Item(text, R.drawable.download, false));
             adapter.notifyDataSetChanged();
             editText.setText("");
         }

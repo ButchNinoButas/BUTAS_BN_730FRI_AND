@@ -31,7 +31,7 @@ public class DetailActivity extends AppCompatActivity {
         if (intent != null) {
             itemPosition = intent.getIntExtra("itemPosition", -1);
             String itemText = intent.getStringExtra("itemText");
-            int itemImage = intent.getIntExtra("itemImage", R.drawable.ic_launcher_background);
+            int itemImage = intent.getIntExtra("itemImage", R.drawable.download);
             boolean itemChecked = intent.getBooleanExtra("itemChecked", false);
 
             if (itemText == null) itemText = "";

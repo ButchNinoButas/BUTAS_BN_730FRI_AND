@@ -32,7 +32,7 @@
             android:layout_toStartOf="@+id/addButton"
             android:layout_alignParentStart="true"
             android:layout_margin="8dp"
-            android:hint="Enter item"/>
+            android:hint="Add new list"/>
 
         <Button
             android:id="@+id/addButton"
