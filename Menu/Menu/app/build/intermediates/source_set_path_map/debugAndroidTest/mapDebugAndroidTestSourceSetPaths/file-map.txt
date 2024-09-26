@@ -1,0 +1,5 @@
+com.example.menu.test.app-core-1.6.1-0 C:\Users\Administrator\.gradle\caches\transforms-4\b8fe4d1a950bfaa65fd41ddf31cfdc13\transformed\core-1.6.1\res
+com.example.menu.test.app-androidTest-1 C:\Users\Administrator\AndroidStudioProjects\JANOHAN_WI_730FRI_AND\Menu\app\build\generated\res\resValues\androidTest\debug
+com.example.menu.test.app-mergeDebugAndroidTestResources-2 C:\Users\Administrator\AndroidStudioProjects\JANOHAN_WI_730FRI_AND\Menu\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.menu.test.app-mergeDebugAndroidTestResources-3 C:\Users\Administrator\AndroidStudioProjects\JANOHAN_WI_730FRI_AND\Menu\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.menu.test.app-debugAndroidTest-4 C:\Users\Administrator\AndroidStudioProjects\JANOHAN_WI_730FRI_AND\Menu\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

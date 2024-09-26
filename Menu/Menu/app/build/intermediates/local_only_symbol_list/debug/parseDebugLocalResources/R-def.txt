@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_call_dialog
+id action_exit
+id action_go_to_fragment
+id action_home
+id action_more_options
+id btn_add
+id btn_exit
+id fragment_container
+id sample_text
+id toolbar
+layout activity_main
+layout dialog_fragment
+layout fragment_layout
+menu main_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Menu
+xml backup_rules
+xml data_extraction_rules
