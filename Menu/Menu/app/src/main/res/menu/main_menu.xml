@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_go_to_fragment"
+        android:title="Go to another fragment" />
+    <item
+        android:id="@+id/action_call_dialog"
+        android:title="Call DialogFragment" />
+    <item
+        android:id="@+id/action_more_options"
+        android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/action_home"
+                android:title="Home" />
+            <item
+                android:id="@+id/action_exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+</menu>
