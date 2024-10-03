@@ -33,13 +33,11 @@ public class Calculator extends AppCompatActivity {
 
         Button addButton = findViewById(R.id.add_button);
         Button subtractButton = findViewById(R.id.subtract_button);
-        Button multiplyButton = findViewById(R.id.multiply_button);
-        Button divideButton = findViewById(R.id.divide_button);
+
 
         addButton.setOnClickListener(this::performOperation);
         subtractButton.setOnClickListener(this::performOperation);
-        multiplyButton.setOnClickListener(this::performOperation);
-        divideButton.setOnClickListener(this::performOperation);
+
     }
 
     private void performOperation(View view) {
@@ -52,19 +50,9 @@ public class Calculator extends AppCompatActivity {
                 result = num1 + num2;
             } else if (view.getId() == R.id.subtract_button) {
                 result = num1 - num2;
-            } else if (view.getId() == R.id.multiply_button) {
-                result = num1 * num2;
-            } else if (view.getId() == R.id.divide_button) {
-                if (num2 != 0) {
-                    result = num1 / num2;
-                } else {
-                    resultTextView.setText("Error: Division by zero");
-                    return;
-                }
-            } else {
-                resultTextView.setText("Error: Unknown operation");
-                return;
             }
+
+
 
             resultTextView.setText(String.format("Result: %.2f", result));
         } catch (NumberFormatException e) {
